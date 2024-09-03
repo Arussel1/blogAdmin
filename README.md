@@ -13,7 +13,7 @@
     + All user permissions from BlogClient.
     + Creating and managing posts.
     + Changing post status (e.g., publish/unpublish).
-    + Deleting comments.
+    + Deleting comments. <br>
 **Demo**: :point_right:[**Click here**](https://blog-admin-sooty.vercel.app/):point_left:. <br>
 Please allow up to 1 minutes for the website to load.
 ## Install and set up
