@@ -8,13 +8,13 @@
    + View posts.
    + Post comments. GitHub: BlogClient.
 
-[AdminClient](): The admin-facing client with extended permissions, including:
+3. [AdminClient](https://github.com/Arussel1/blogAdmin): The admin-facing client with extended permissions, including:
 
     + All user permissions from BlogClient.
     + Creating and managing posts.
     + Changing post status (e.g., publish/unpublish).
     + Deleting comments.
-**Demo**: :point_right:[**Not yet ready**]():point_left:. <br>
+**Demo**: :point_right:[**Click here**](https://blog-admin-sooty.vercel.app/):point_left:. <br>
 Please allow up to 1 minutes for the website to load.
 ## Install and set up
 Follow these step below to set up the website in your local machine.
