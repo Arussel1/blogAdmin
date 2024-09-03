@@ -54,7 +54,13 @@ const Posts = () => {
 
     fetchPosts();
   }, [navigate]);
-
+  const truncateToWords = (text:string, maxWords: number) => {
+    const words = text.split(/\s+/); // Split text into words
+    if (words.length > maxWords) {
+      return words.slice(0, maxWords).join(' ') + '...'; // Truncate and add ellipsis
+    }
+    return text;
+  };
   const changePostStatus = async (postId: number, currentStatus: boolean) => {
     const token = localStorage.getItem('token');
     if (!token) {
@@ -112,7 +118,7 @@ const Posts = () => {
                   className="w-full h-48 object-cover rounded-lg mb-4"
                 />
                 <div
-                  dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(post.content) }}
+                  dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(truncateToWords(post.content,30)) }}
                   className="text-gray-800 mb-2 "
                 />
                 <p>Status: {post.published ? 'Published' : 'Hidden'}</p>
