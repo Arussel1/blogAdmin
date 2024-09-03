@@ -1,12 +1,12 @@
 # Blog Admin
 ## Project Overview: 
-1. [BlogAPI](https://github.com/Arussel1/blogAPI): The backend of the blog application built using Node.js and Express, handling routes for posts, users, and comments. GitHub: BlogAPI.
+1. [BlogAPI](https://github.com/Arussel1/blogAPI): The backend of the blog application built using Node.js and Express, handling routes for posts, users, and comments.
 
 2. [BlogClient](https://github.com/Arussel1/blogClient): The user-facing client application built with React, TypeScript, and TailwindCSS. It allows users to:
 
    + Create and log in to accounts.
    + View posts.
-   + Post comments. GitHub: BlogClient.
+   + Post comments. 
 
 3. [AdminClient](https://github.com/Arussel1/blogAdmin): The admin-facing client with extended permissions, including:
 
@@ -23,13 +23,13 @@ Follow these step below to set up the website in your local machine.
 1. Clone the repo: <br>
 
 ```bash
-git clone https://github.com/YourUserName/blogClient
+git clone https://github.com/YourUserName/blogAdmin
 ```
 
 2. Navigate to the project folder:<br>
 
 ```bash
-cd blogClient
+cd blogAdmin
 ```
 
 3. Install the dependencies:<br>
